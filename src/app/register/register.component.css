@@ -1,0 +1,68 @@
+label {
+  display: block;
+  margin-top: 10px;
+}
+.card-container.card {
+  max-width: 400px !important;
+  padding: 40px 40px;
+}
+.card-container.card .buttons {
+  margin: 0px auto;
+  text-decoration: none;
+
+
+}
+
+*{
+  text-decoration: none;
+}
+
+.card-container.card .buttons button{
+  padding: 8px 20px;
+  border: none;
+  width: 155px;
+
+}
+.card-container.card .buttons .signUp-button{
+  background-color: rgba(225,225,225,0.9);
+}
+.card-container.card .buttons .Login-button{
+  background-color: white;
+}
+.card-container.card .buttons span {
+
+}
+.Keep-me-signed-in {
+  width: 134px;
+  height: 24px;
+  margin: 0 0 0 8px;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #189877;
+}
+.card {
+  background-color: #f8f7f7;
+  padding: 20px 25px 30px;
+  margin: 0 auto 25px;
+  margin-top: 50px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(243, 10, 10, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(228, 41, 41, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.profile-img-card {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
